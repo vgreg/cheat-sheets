@@ -36,6 +36,8 @@
 - **Indent/Format:** `>` indent, `<` dedent, `=` reformat (e.g., `=i{`, `=%`)
 - **Replace char:** `r{c}`; **substitute char/line:** `s` / `S`
 - **Join:** `J` (space), `gJ` (no space)
+- **Comment line**: `gcc` (normal) or `gc` (visual)
+- **Comment block**: `gbc` (normal) or `gb` (visual)
 
 **Pattern:** `{count}{operator}{motion}` → `3dw`, `d}`, `ci"`, `=i{`
 
@@ -76,7 +78,7 @@
 
 - **Next/Prev:** `<S-l>` / `<S-h>` or `]b` / `[b`
 - **Picker (buffers):** `<leader>,` or `<leader>fb`
-- **Switch to other buffer (toggle):** `<leader>`` or `<leader>bb`
+- **Switch to other buffer (toggle):** `<leader>`` or`<leader>bb`
 - **Close:** `<leader>bd` (delete), `<leader>bo` (others), `<leader>bD` (buffer+window)
 - **Pin & clean:** `<leader>bp` pin, `<leader>bP` delete non-pinned, `<leader>bl`/`<leader>br` delete left/right buffers
   _Keymap refs._ ([LazyVim][2])
